@@ -1,0 +1,21 @@
+
+table, th, td {
+    border: 1px solid;
+}
+
+.friends li {
+    color: gray;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.walt {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.mickey:hover {
+    color:royalblue
+}
