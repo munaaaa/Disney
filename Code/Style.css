@@ -1,21 +1,45 @@
 
+
 table, th, td {
     border: 1px solid;
 }
 
-.friends li {
-    color: gray;
-}
-
-* {
-    font-family: sans-serif;
-}
-
-.walt {
-    font-size: 12px;
-    font-style: italic;
+.waltpicture {
+    padding:10px;
+    text-align: center;
 }
 
 .mickey:hover {
     color:royalblue
+}
+
+.minnie:hover {
+    color:pink
+}
+
+.pluto:hover {
+    color: brown
+}
+
+.donald:hover {
+    color:blue
+}
+
+.firstparagraph {
+    padding:12px;
+    text-align: left;
+}
+
+.disneylogo {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.films {
+    background-color: lightgrey
+}
+
+.year {
+    background-color: lightgrey
 }
