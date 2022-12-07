@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 table, th, td {
     border: 1px solid;
@@ -26,15 +28,27 @@ table, th, td {
 }
 
 .firstparagraph {
-    padding:12px;
     text-align: left;
 }
 
 .disneylogo {
-    text-align: center;
-    padding: 50px;
-    margin: 50px;
+    padding: 30px;
+    margin: 10px;
+    position: relative
 }
+
+.mickeygif {
+position: relative;
+left: 0px;
+top: 30px;
+float: left;
+}
+
+.allstarted {
+    position: relative;
+    bottom: 40px;
+}
+
 
 .films {
     background-color: lightgrey
@@ -42,4 +56,12 @@ table, th, td {
 
 .year {
     background-color: lightgrey
+}
+
+article {
+    margin: 50px;
+}
+
+section {
+    margin: 20px
 }
