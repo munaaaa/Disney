@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+    background-color: beige;
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(Fonts/Pacifico/Pacifico-Regular.ttf);
 }
 
 table, th, td {
@@ -29,6 +35,7 @@ table, th, td {
 
 .firstparagraph {
     text-align: left;
+    font-family: Merriweather;
 }
 
 .disneylogo {
@@ -60,8 +67,15 @@ float: left;
 
 article {
     margin: 50px;
+    font-family: Merriweather;
 }
 
 section {
-    margin: 20px
+    margin: 20px;
+    font-family: Pacifico;
+}
+
+table {
+    color: #17202A;
+    background-color: #D7BDE2;
 }
