@@ -86,10 +86,12 @@ table {
 
 .question {
     font-family: Pacifico;
+    display: inline;
+    color:#fa91d3;
 }
 
 button {
-    padding: 5px;
+    padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
   text-decoration: none;
@@ -103,4 +105,13 @@ button:hover {
 button:active {
     color: #ffffff;
     background-color: #fa91d3;
+}
+
+.breadcrumb li {
+    display: inline;
+    cursor: pointer;
+}
+
+.breadcrumb li+li::before {
+    content: ">";
 }
