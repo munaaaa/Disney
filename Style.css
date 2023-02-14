@@ -33,6 +33,10 @@ table, th, td {
     color:blue
 }
 
+.goofy:hover {
+    color:brown;
+}
+
 .firstparagraph {
     text-align: left;
     font-family: Merriweather;
@@ -68,6 +72,7 @@ float: left;
 article {
     margin: 50px;
     font-family: Merriweather;
+    border: 2px solid lightgray;
 }
 
 section {
@@ -114,4 +119,14 @@ button:active {
 
 .breadcrumb li+li::before {
     content: ">";
+}
+
+.banner {
+    border: 1px dotted black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.alignright {
+    text-align: right;
 }
