@@ -1,6 +1,8 @@
+/* universal */
+
 * {
     box-sizing: border-box;
-    background-color: beige;
+    background-color: beige
 }
 
 @font-face {
@@ -8,34 +10,21 @@
     src: url(Fonts/Pacifico/Pacifico-Regular.ttf);
 }
 
-table, th, td {
-    border: 1px solid;
+/* top of page */
+
+.banner {
+    border: 1px dotted black;
+    display: inline-block;
+    padding: 20px;
 }
 
-.waltpicture {
-    padding:10px;
-    text-align: center;
+.alignright {
+    text-align: right;
 }
 
-.mickey:hover {
-    color:royalblue
-}
 
-.minnie:hover {
-    color:pink
-}
+/* main page */
 
-.pluto:hover {
-    color: brown
-}
-
-.donald:hover {
-    color:blue
-}
-
-.goofy:hover {
-    color:brown;
-}
 
 .firstparagraph {
     text-align: left;
@@ -61,6 +50,54 @@ float: left;
 }
 
 
+article {
+    margin: 50px;
+    font-family: Merriweather;
+    border: 2px solid lightgray;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+table, th, td {
+    border: 1px solid;
+}
+
+.waltpicture {
+    padding:10px;
+    text-align: center;
+}
+
+.Disney {
+    text-decoration: underline;
+    color: red;
+}
+
+/* lower page */
+
+.mickey:hover {
+    color:royalblue
+}
+
+.minnie:hover {
+    color:pink
+}
+
+.pluto:hover {
+    color: brown
+}
+
+.donald:hover {
+    color:blue
+}
+
+.goofy:hover {
+    color:brown;
+}
+
 .films {
     background-color: lightgrey
 }
@@ -69,30 +106,17 @@ float: left;
     background-color: lightgrey
 }
 
-article {
-    margin: 50px;
-    font-family: Merriweather;
-    border: 2px solid lightgray;
-}
-
-section {
-    margin: 20px;
-}
 
 table {
     color: #17202A;
     background-color: #D7BDE2;
 }
 
-.Disney {
-    text-decoration: underline;
-    color: red;
-}
 
 .question {
     font-family: Pacifico;
     display: inline;
-    color:#fa91d3;
+    color: rebeccapurple;
 }
 
 button {
@@ -121,12 +145,30 @@ button:active {
     content: ">";
 }
 
-.banner {
-    border: 1px dotted black;
-    display: inline-block;
-    padding: 20px;
+/* interactive form */
+
+.yourfavourite {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
-.alignright {
-    text-align: right;
+.interactiveform {
+display: inline-block;
+text-align: center;
+padding-bottom: 20px;
+}
+
+.formbutton {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 2px;
+    margin-left: 20px;
+
+}
+
+.formbutton:hover {
+    background-color: forestgreen;
 }
